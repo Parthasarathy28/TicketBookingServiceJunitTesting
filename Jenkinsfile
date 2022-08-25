@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { ('build-in') }
     stages {
         stage('git repo & clean') {
             steps {
